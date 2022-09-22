@@ -29,11 +29,13 @@
     },
     "types": [
       "@types/node",
-      "@types/mapbox-gl"
+      "@types/mapbox-gl",
+      "@types/gl"
     ]
   },
   "include": [
-    "src"
+    "src",
+    "tests"
   ],
   "exclude": [
     "node_modules",

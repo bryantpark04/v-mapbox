@@ -30,6 +30,7 @@
           'container' in props.options
             ? props.options
             : { ...props.options, container: 'map' };
+        options.container = document.createElement('div');
         map.value = new Map(options);
         loaded.value = true;
         provide(MapKey, map);
